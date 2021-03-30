@@ -6,6 +6,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+:root {
+  --main-color: #00c2f0;
+  --bg: center center/cover no-repeat;
+}
+
 .header_contacts {
   padding-bottom: 19px;
 }
@@ -60,7 +65,7 @@
 }
 
 .main {
-  background: url("../img/main_bg.png") center center/cover no-repeat;
+  background: url("../img/main_bg.png") var(--bg);
   min-height: 700px;
   padding-top: 39px;
 }
@@ -98,7 +103,7 @@
 
 .header-menu-link:hover {
   text-decoration: none;
-  color: #00c2f0;
+  color: var(--main-color);
 }
 
 .des {
@@ -145,7 +150,7 @@
   text-decoration: none;
   padding: 15px 55px;
   width: 241px;
-  background-color: #00c2f0;
+  background-color: var(--main-color);
   -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
@@ -155,7 +160,7 @@
 
 .btn-text:hover {
   text-decoration: none;
-  color: #00c2f0;
+  color: var(--main-color);
   background-color: #ffffff;
 }
 
@@ -200,7 +205,7 @@
 }
 
 .industries {
-  background: url("../img/industries_bg.png") center center/cover no-repeat;
+  background: url("../img/industries_bg.png") var(--bg);
   min-height: 890px;
 }
 
@@ -240,7 +245,7 @@
 }
 
 .industries__menu-item a:hover {
-  color: #00c2f0;
+  color: var(--main-color);
   text-decoration: none;
 }
 
